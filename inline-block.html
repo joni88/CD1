@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* span is inline by default */
+      /* will display side by side */
+      /* unable to take top/bottom margin and/or padding */
+      span {
+        font-size: 20px;
+        border: 1px solid blue;
+        background-color: lavender;
+        text-decoration: blue;
+      }
+      
+      /* div is block by default */
+      /* will knock siblings down to next line */
+      
+      div {
+        font-size: 20px;
+        border: 1px solid black;
+        background-color: lightblue;
+      }
+
+      /* will display side by side */
+      /* able to take top/bottom margin and/or padding */
+      .align {
+        display: inline-block; 
+        padding: 20px; 
+        font-size: 20px;
+        border: 1px solid black;
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Inline vs. Block vs. Inline-Block</h1>
+
+    <img src="http://i.onionstatic.com/clickhole/2630/3/16x9/640.jpg">
+
+    <span>facebook</span>
+    <span>tweeter</span>
+    <span>hotmail</span>
+
+    <div>fyjygkguhul  ygyj   gyjvjy fjf</div>
+    <div>Bxjuishf oh oih ihfe  efjnjasfe noih</div>
+    <div>eoihfoi hh o hhfh ohoibf iuhohkbbiu   </div>
+
+    <div class="align">Inline-Block</div>
+    <div class="align">Inline-Block</div>
+    <div class="align">Inline-Block</div>
+
+    <div>Block</div>
+    <div>Block</div>
+    <div>Block</div>
+  
+  </body>
+</html>
